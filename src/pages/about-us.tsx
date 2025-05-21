@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
-import { Award, BookOpen, Building, Calendar, GraduationCap, Users } from "lucide-react"
+import { Award, Building, Calendar, GraduationCap, Users } from "lucide-react"
 import TeamMemberCard from "@/components/about-us/team-member-card"
 
 export default function AboutUs() {
@@ -14,9 +14,9 @@ export default function AboutUs() {
     {
       id: 1,
       name: "Mohd Sharib Khan",
-      role: "Director & Chief Mentor",
+      role: "Founder & Director",
       bio: "MSc and LLB with over 10 years of experience in education and industry. Passionate about bridging technology and law for impactful solutions.",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/sharib-sir-pic.jpg",
       socialLinks: {
         linkedin: "#",
         twitter: "#",
@@ -27,7 +27,7 @@ export default function AboutUs() {
       name: "Mohd Sajid Khan",
       role: "Web Development & Programing Instructor",
       bio: "Instructor in Programming and Web Development with an MCA and over 6+ years of experience in education and industry. Skilled in delivering practical, career-focused tech training.",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/sajid-sir-pic.jpg",
       socialLinks: {
         linkedin: "#",
         twitter: "#",
@@ -38,7 +38,7 @@ export default function AboutUs() {
       name: "Mohd Salman Khan",
       role: "Office Productivity Tools Trainer",
       bio: "Instructor in Tally, MS Office, MS Excel, and related tools with an MBA and extensive experience in business and office applications. Focused on practical, job-oriented training.",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/sharib-sir-pic.jpg",
       socialLinks: {
         linkedin: "#",
         twitter: "#",

@@ -15,7 +15,6 @@ export const SignIn = () => {
 
   const [isVisible, setIsVisible] = useState(false)
   // Error states
-  const [loginErrors, setLoginErrors] = useState({ email: "", password: "" })
 
   useEffect(() => {
     setIsVisible(true)
@@ -57,12 +56,12 @@ export const SignIn = () => {
                       <Input
                         type="text"
                         placeholder="1124XXW87ZW99"
-                        className={`pl-10 ${loginErrors.email ? "border-red-500" : ""}`}
+                        className={`pl-10`}
                         value={loginEmail}
                         onChange={(e) => setLoginEmail(e.target.value)}
                       />
                     </div>
-                    {loginErrors.email && <p className="text-xs text-red-500">{loginErrors.email}</p>}
+                    {/* {loginErrors.email && <p className="text-xs text-red-500">{loginErrors.email}</p>} */}
                   </div>
 
                   <Button type="submit" className="w-full bg-gradient-to-r from-teal-600 to-cyan-600 text-white">

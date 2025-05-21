@@ -19,11 +19,13 @@ interface TeamMemberProps {
 }
 
 export default function TeamMemberCard({ member }: TeamMemberProps) {
+
+  console.log(member)
   return (
     <Card className="overflow-hidden transition-all h-full duration-300 hover:shadow-lg">
       <div className="relative aspect-square overflow-hidden">
         <img
-          src={member.image || "/placeholder.svg"}
+          src={member.image}
           alt={member.name}
           className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
         />

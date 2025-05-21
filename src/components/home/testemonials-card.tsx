@@ -17,9 +17,9 @@ export default function TestimonialCard({ testimonial }: TestimonialProps) {
   return (
     <Card className="h-full overflow-hidden transition-all duration-300 hover:shadow-lg">
       <CardHeader className="flex flex-row items-center gap-4 pb-4">
-        <Avatar className="h-20 w-20 " >
+        <Avatar className="h-12 w-12 laptop:h-20 laptop:w-20 " >
           <AvatarImage className="object-cover " src={testimonial.avatar || "/placeholder.svg"} alt={testimonial.name} />
-          <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
+          <AvatarFallback className="text-xl " >{testimonial.name.charAt(0)}</AvatarFallback>
         </Avatar>
         <div>
           <h4 className="font-semibold">{testimonial.name}</h4>

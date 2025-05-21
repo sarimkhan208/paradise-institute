@@ -57,13 +57,13 @@ export const Hero = ({isVisible} : {isVisible:boolean}) => {
               </motion.div>
             </motion.div>
 
-            <motion.div
-              className="relative h-[400px] w-full max-w-md"
+            {/* <motion.div
+              className=" h-[400px] w-full max-w-md"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: isVisible ? 1 : 0, scale: isVisible ? 1 : 0.8 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-            >
-              <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-teal-500 to-cyan-500 p-1 shadow-xl">
+            > */}
+              {/* <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-teal-500 to-cyan-500 p-1 shadow-xl">
                 <div className="h-full w-full rounded-xl bg-white">
                   <img
                     src="/placeholder.svg?height=400&width=400"
@@ -71,8 +71,9 @@ export const Hero = ({isVisible} : {isVisible:boolean}) => {
                     className="h-full w-full rounded-xl object-cover"
                   />
                 </div>
-              </div>
-            </motion.div>
+              </div> */}
+              {/* <OrbitingCirclesDemo/> */}
+            {/* </motion.div> */}
           </div>
         </div>
       </section>

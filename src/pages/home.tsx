@@ -31,7 +31,7 @@ const studentReviews = [
   {
     name: "Vikas Prajapati",
     role: "DCA",
-    content:"Hello , I m Vikas Prajapati. I did the training in PARADISE COMPUTER INSTITUTE I enrolled there for Diploma in computer Application (DCA) It was the wonderful experience .The training centre is well-organized. They are giving comprehensive study resources. This institute, in particular, appeals to me since the institute trainer has extensive understanding and is really polite. Thank you for providing the best opportunity. I will recommend to all who are intrested in this training to try it and you will have best experience .",
+    content:"Hello , I m Vikas Prajapati. I did the training in PARADISE COMPUTER INSTITUTE I enrolled there for Diploma in computer Application (DCA) It was the wonderful experience.",
     avatar: "",
     rating : "4.9"
   },

@@ -91,7 +91,9 @@ export default function Navbar() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: navLinks.length * 0.1 }}
             >
+              <Link target="_blank" to={"https://docs.google.com/forms/d/e/1FAIpQLSfxGZdZzKOMhc84IslYEWBikI47b5IuFbsV51ojNTkXIe3_Lg/viewform?usp=dialog"} >
               <Button className="ml-4 bg-gradient-to-r from-teal-600 to-cyan-600 text-white">Enroll Now</Button>
+              </Link>
             </motion.div>
           </nav>
 
@@ -141,7 +143,9 @@ export default function Navbar() {
                   </ReactScroll>
                 ))}
                 <Button className="mt-2 w-full bg-gradient-to-r from-teal-600 to-cyan-600 text-white">
+                  <Link target="_blank" to={"https://docs.google.com/forms/d/e/1FAIpQLSfxGZdZzKOMhc84IslYEWBikI47b5IuFbsV51ojNTkXIe3_Lg/viewform?usp=dialog"} >
                   Enroll Now
+                  </Link>
                 </Button>
               </nav>
             </div>

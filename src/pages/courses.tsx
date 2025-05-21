@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
-import { Search, Filter, Clock, Users, BarChart, CheckCircle, Download, ArrowRight, ListFilter } from "lucide-react"
+import { Search, Filter, Clock, Users, BarChart, CheckCircle, ListFilter } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
@@ -289,7 +289,9 @@ export default function Courses() {
                               </Link>
                               
                               <Button className="bg-gradient-to-r from-teal-600 to-cyan-600 text-white">
+                                <Link target="_blank" to={"https://docs.google.com/forms/d/e/1FAIpQLSfxGZdZzKOMhc84IslYEWBikI47b5IuFbsV51ojNTkXIe3_Lg/viewform?usp=dialog"} >
                                 Enroll Now
+                                </Link>
                               </Button>
                             </CardFooter>
                           </div>
@@ -404,7 +406,9 @@ export default function Courses() {
 
                             <div className="mt-6">
                               <Button className="w-full bg-gradient-to-r from-teal-600 to-cyan-600 text-white">
+                                <Link target="_blank" to={"https://docs.google.com/forms/d/e/1FAIpQLSfxGZdZzKOMhc84IslYEWBikI47b5IuFbsV51ojNTkXIe3_Lg/viewform?usp=dialog"} >
                                 Enroll Now
+                                </Link>
                               </Button>
                             </div>
                           </div>
